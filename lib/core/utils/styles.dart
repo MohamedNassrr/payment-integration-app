@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 abstract class Styles{
 
-  static const TextStyle style25 = const TextStyle(
+  static const TextStyle style25 =  TextStyle(
     fontSize: 25.0,
     fontFamily: 'Inter',
     color: Colors.black,
     fontWeight: FontWeight.w500,
   );
 
-  static const TextStyle style24 = const TextStyle(
+  static const TextStyle style24 =  TextStyle(
     fontSize: 24.0,
     fontFamily: 'Inter',
     color: Colors.black,
@@ -23,13 +23,21 @@ abstract class Styles{
     fontWeight: FontWeight.w400,
   );
 
-  static const TextStyle style18 = const TextStyle(
-    fontSize: 18.0,
+  static const TextStyle style22 =  TextStyle(
+    fontSize: 22.0,
     fontFamily: 'Inter',
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
-  static const TextStyle styleBold18 = const TextStyle(
+
+  static const TextStyle style18 =  TextStyle(
+    fontSize: 18.0,
+    fontFamily: 'Inter',
+    color: Colors.black,
+    fontWeight: FontWeight.w500,
+
+  );
+  static const TextStyle styleBold18 =  TextStyle(
     fontSize: 18.0,
     fontFamily: 'Inter',
     color: Colors.black,

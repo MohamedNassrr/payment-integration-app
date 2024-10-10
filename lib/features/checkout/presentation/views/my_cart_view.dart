@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:payment_app/core/utils/styles.dart';
+import 'package:payment_app/features/checkout/presentation/views/widgets/my_cart_view_body.dart';
 
 class MyCartView extends StatelessWidget {
   const MyCartView({super.key});
@@ -14,6 +15,7 @@ class MyCartView extends StatelessWidget {
           style: Styles.style18,
         ),
       ),
+      body: const MyCartViewBody(),
     );
   }
 }
