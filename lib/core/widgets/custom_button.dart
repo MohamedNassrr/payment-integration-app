@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:payment_app/core/utils/styles.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key, this.onPressed});
+  const CustomButton({super.key, this.onPressed, required this.title});
 
   final void Function()? onPressed;
+  final String title;
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +18,8 @@ class CustomButton extends StatelessWidget {
       ),
       child: TextButton(
         onPressed: onPressed,
-        child: const Text(
-          'Complete Payment',
+        child:  Text(
+          title,
           style: Styles.style22,
         ),
       ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:payment_app/core/utils/styles.dart';
-import 'package:payment_app/features/checkout/presentation/views/widgets/my_cart_view_body.dart';
+import 'package:payment_app/features/checkout/presentation/views/widgets/payment_detail_body.dart';
 
-class MyCartView extends StatelessWidget {
-  const MyCartView({super.key});
+class PaymentDetailsView extends StatelessWidget {
+  const PaymentDetailsView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,11 +11,11 @@ class MyCartView extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text(
-          'My Cart',
+          'Payment Details',
           style: Styles.style25,
         ),
       ),
-      body: const MyCartViewBody(),
+      body: const PaymentDetailBody(),
     );
   }
 }
